@@ -1,0 +1,11 @@
+
+private List<Integer> bannerList = new ArrayList<>();
+
+ //新轮播图加数据
+        rbb = (RotateBannerView) view.findViewById(R.id.banner);
+//添加个数
+        bannerList.add(1); 
+        bannerList.add(2);
+        bannerList.add(3);
+        bannerList.add(4);
+        rbb.setData(bannerList);
